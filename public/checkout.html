@@ -664,9 +664,10 @@
                                 currency: data.order.currenct,
                                 name: "Rahul Agarwal",
                                 description: "TESTING IN PROGRESS",
-                                image: "http://localhost:3000/images/logo.svg",
+                                image: "https://btbdeveloper.com/images/logo.svg",
                                 order_id: data.order.id,
-                                callback_url: `http://localhost:3000/verifyPayment?orderid=${oid}`,
+                                // callback_url: `http://localhost:3000/verifyPayment?orderid=${oid}`,
+                                callback_url: `https://btbdeveloper.com/verifyPayment?orderid=${oid}`,
                                 prefill: {
                                     name: `${data.userInfo.user_fname} ${data.userInfo.user_lname}`,
                                     email: `${data.userInfo.user_email}`,
