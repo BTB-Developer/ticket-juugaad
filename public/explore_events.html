@@ -26,19 +26,6 @@
         <link href="vendor/OwlCarousel/assets/owl.theme.default.min.css" rel="stylesheet" />
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
         <link href="vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" />
-
-        <!--To check whether user is logged in or not-->
-        <script>
-            fetch("/checkLogin").then((result) => {
-                if (result.status === 200) {
-                    return;
-                } else if (result.status === 409) {
-                    return (location.href = "/my_organisation_dashboard.html");
-                } else {
-                    return (location.href = "/index.html");
-                }
-            });
-        </script>
     </head>
 
     <body class="d-flex flex-column h-100">

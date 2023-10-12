@@ -20,36 +20,14 @@
         <link href="vendor/unicons-2.0.1/css/unicons.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
         <link href="css/responsive.css" rel="stylesheet" />
-        <!-- <link href="css/night-mode.css" rel="stylesheet">
-		
-		<!-- Vendor Stylesheets -->
+        <!-- <link href="css/night-mode.css" rel="stylesheet"> -->
+
+        <!-- Vendor Stylesheets -->
         <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
         <link href="vendor/OwlCarousel/assets/owl.carousel.css" rel="stylesheet" />
         <link href="vendor/OwlCarousel/assets/owl.theme.default.min.css" rel="stylesheet" />
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
         <link href="vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" />
-
-        <!--To check whether user is logged in or not-->
-        <!-- <script>
-            fetch("/checkLogin").then((result) => {
-                if (result.status === 200) {
-                    return;
-                } else {
-                    return (location.href = "/sign_in.html");
-                }
-            });
-        </script> -->
-        <script>
-            fetch("/checkLogin").then((result) => {
-                if (result.status === 200) {
-                    return;
-                } else if (result.status === 409) {
-                    return (location.href = "/my_organisation_dashboard.html");
-                } else {
-                    return (location.href = "/index.html");
-                }
-            });
-        </script>
     </head>
 
     <body class="d-flex flex-column h-100">
@@ -266,8 +244,14 @@
                                 <h3>Our aim is to provide a powerful and affordable event ticketing solution that can handle events of any size and complexity without an issue.</h3>
                             </div>
                             <div class="about--description">
-                                <p>Ticket Juuggad’s online event ticketing software was built on the idea that anyone, anywhere in the world wanting to organise an event should have the tools to simply do so. We promote this idea everyday through the dedication of a team based out of Melbourne, Australia.</p>
-                                <p>The focus of our efforts is the event organiser, who works hard to ensure that their attendees have a great experience. We share that passion for bringing people together, creating memories and enriching lives.</p>
+                                <p>
+                                    Ticket Juuggad’s online event ticketing software was built on the idea that anyone, anywhere in the world wanting to organise an event should have the tools to
+                                    simply do so. We promote this idea everyday through the dedication of a team based out of Melbourne, Australia.
+                                </p>
+                                <p>
+                                    The focus of our efforts is the event organiser, who works hard to ensure that their attendees have a great experience. We share that passion for bringing people
+                                    together, creating memories and enriching lives.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -288,7 +272,10 @@
                                                 <img src="images/about/img-1.jpg" alt="" />
                                             </div>
                                             <div class="communities-content">
-                                                <p>We work with several industry leaders and community groups around Australia and want all of our event organisers to succeed in everything they do. Events are not always easy, but selling tickets online should be.</p>
+                                                <p>
+                                                    We work with several industry leaders and community groups around Australia and want all of our event organisers to succeed in everything they do.
+                                                    Events are not always easy, but selling tickets online should be.
+                                                </p>
                                             </div>
                                         </a>
                                     </div>
@@ -298,7 +285,10 @@
                                                 <img src="images/about/img-2.jpg" alt="" />
                                             </div>
                                             <div class="communities-content">
-                                                <p>We are committed to making a positive impact on the community. That's why our pricing structure is set so that everyone can afford to use Ticket Juuggad, and it's why we offer our system free of charge for any free events or registrations.</p>
+                                                <p>
+                                                    We are committed to making a positive impact on the community. That's why our pricing structure is set so that everyone can afford to use Ticket
+                                                    Juuggad, and it's why we offer our system free of charge for any free events or registrations.
+                                                </p>
                                             </div>
                                         </a>
                                     </div>
@@ -308,7 +298,10 @@
                                                 <img src="images/about/img-3.jpg" alt="" />
                                             </div>
                                             <div class="communities-content">
-                                                <p>This provides an additional revenue stream for your charity and allows us to positively contribute to the causes that are important to you and your community.</p>
+                                                <p>
+                                                    This provides an additional revenue stream for your charity and allows us to positively contribute to the causes that are important to you and your
+                                                    community.
+                                                </p>
                                             </div>
                                         </a>
                                     </div>
@@ -324,16 +317,29 @@
                         <div class="col-lg-10">
                             <div class="main-title mb-4">
                                 <h3>The Complete Event Ticketing Platform with a Host of Features</h3>
-                                <p>Ticket Juuggad's allows you to create and sell tickets for your event and manage all of the data associated with your events, such as ticket sales, visitor insights, reporting, and much more. It's the perfect platform to help you manage your events efficiently.</p>
+                                <p>
+                                    Ticket Juuggad's allows you to create and sell tickets for your event and manage all of the data associated with your events, such as ticket sales, visitor
+                                    insights, reporting, and much more. It's the perfect platform to help you manage your events efficiently.
+                                </p>
                             </div>
                         </div>
                         <div class="col-lg-12">
                             <div class="nav step-tabs custom-border-top pt-5" role="tablist">
-                                <button class="step-link feature-step-link" data-bs-toggle="tab" data-bs-target="#step-01" type="button" role="tab" aria-controls="step-01" aria-selected="true">Step 01<span>Event Page​</span></button>
-                                <button class="step-link feature-step-link" data-bs-toggle="tab" data-bs-target="#step-02" type="button" role="tab" aria-controls="step-02" aria-selected="false">Step 02<span>Ticketing</span></button>
-                                <button class="step-link feature-step-link" data-bs-toggle="tab" data-bs-target="#step-03" type="button" role="tab" aria-controls="step-03" aria-selected="false">Step 03<span>Attendees</span></button>
-                                <button class="step-link feature-step-link" data-bs-toggle="tab" data-bs-target="#step-04" type="button" role="tab" aria-controls="step-04" aria-selected="false">Step 04<span>Promotion</span></button>
-                                <button class="step-link feature-step-link" data-bs-toggle="tab" data-bs-target="#step-05" type="button" role="tab" aria-controls="step-05" aria-selected="false">Step 05<span>Management</span></button>
+                                <button class="step-link feature-step-link" data-bs-toggle="tab" data-bs-target="#step-01" type="button" role="tab" aria-controls="step-01" aria-selected="true">
+                                    Step 01<span>Event Page​</span>
+                                </button>
+                                <button class="step-link feature-step-link" data-bs-toggle="tab" data-bs-target="#step-02" type="button" role="tab" aria-controls="step-02" aria-selected="false">
+                                    Step 02<span>Ticketing</span>
+                                </button>
+                                <button class="step-link feature-step-link" data-bs-toggle="tab" data-bs-target="#step-03" type="button" role="tab" aria-controls="step-03" aria-selected="false">
+                                    Step 03<span>Attendees</span>
+                                </button>
+                                <button class="step-link feature-step-link" data-bs-toggle="tab" data-bs-target="#step-04" type="button" role="tab" aria-controls="step-04" aria-selected="false">
+                                    Step 04<span>Promotion</span>
+                                </button>
+                                <button class="step-link feature-step-link" data-bs-toggle="tab" data-bs-target="#step-05" type="button" role="tab" aria-controls="step-05" aria-selected="false">
+                                    Step 05<span>Management</span>
+                                </button>
                             </div>
                             <div class="tab-content">
                                 <div class="tab-pane fade show" id="step-01" role="tabpanel">
@@ -351,7 +357,10 @@
                                                     </div>
                                                     <div class="feature-item">
                                                         <h4>Booking end Countdown Timer</h4>
-                                                        <p>Our Countdown timer can be a unique tool for selling your tickets. The timer shows the end time for ticket sale deadline, discount end period, and more.</p>
+                                                        <p>
+                                                            Our Countdown timer can be a unique tool for selling your tickets. The timer shows the end time for ticket sale deadline, discount end
+                                                            period, and more.
+                                                        </p>
                                                     </div>
                                                     <div class="feature-item">
                                                         <h4>Multi-session or Multi-Day Event</h4>
@@ -374,15 +383,24 @@
                                                 <div class="col-12">
                                                     <div class="feature-item">
                                                         <h4>Single Ticket</h4>
-                                                        <p>Sell standard, fixed price tickets to all of your attendees coming to the events. You have complete control of limiting ticket numbers. In addition, you can set up Unlimited types of tickets for your event.</p>
+                                                        <p>
+                                                            Sell standard, fixed price tickets to all of your attendees coming to the events. You have complete control of limiting ticket numbers. In
+                                                            addition, you can set up Unlimited types of tickets for your event.
+                                                        </p>
                                                     </div>
                                                     <div class="feature-item">
                                                         <h4>Unlimited Ticket Types</h4>
-                                                        <p>You can price your tickets in different types with the multi-price system. For example, you can sell discounted tickets, such as early-bird discounts, higher-priced VIP tickets, etc.</p>
+                                                        <p>
+                                                            You can price your tickets in different types with the multi-price system. For example, you can sell discounted tickets, such as early-bird
+                                                            discounts, higher-priced VIP tickets, etc.
+                                                        </p>
                                                     </div>
                                                     <div class="feature-item">
                                                         <h4>Group Ticketing</h4>
-                                                        <p>There are unlimited ways of grouping tickets. You can create various types of tickets. You can set the limit for group ticket purchases from one person. Attendees can choose their seats as there are no seat restrictions on group tickets.</p>
+                                                        <p>
+                                                            There are unlimited ways of grouping tickets. You can create various types of tickets. You can set the limit for group ticket purchases from
+                                                            one person. Attendees can choose their seats as there are no seat restrictions on group tickets.
+                                                        </p>
                                                     </div>
                                                     <div class="feature-item">
                                                         <h4>Set Your Rules</h4>
@@ -405,19 +423,31 @@
                                                 <div class="col-12">
                                                     <div class="feature-item">
                                                         <h4>Fully Customisable Forms</h4>
-                                                        <p>Our easy drag and drop feature lets you create attendees' forms as per your event requirements. Create a professional-looking form with a few simple steps.</p>
+                                                        <p>
+                                                            Our easy drag and drop feature lets you create attendees' forms as per your event requirements. Create a professional-looking form with a
+                                                            few simple steps.
+                                                        </p>
                                                     </div>
                                                     <div class="feature-item">
                                                         <h4>Calendar Integration</h4>
-                                                        <p>We've integrated popular online calendars (Outlook, Google, Yahoo, and Apple) where attendees can add events and get alerts when nearing the event date.</p>
+                                                        <p>
+                                                            We've integrated popular online calendars (Outlook, Google, Yahoo, and Apple) where attendees can add events and get alerts when nearing the
+                                                            event date.
+                                                        </p>
                                                     </div>
                                                     <div class="feature-item">
                                                         <h4>Attendee Dashboard</h4>
-                                                        <p>The attendees' dashboard gives guests the option to cancel their registration should they no longer be able to attend. They can also check their registered events and suggestions.</p>
+                                                        <p>
+                                                            The attendees' dashboard gives guests the option to cancel their registration should they no longer be able to attend. They can also check
+                                                            their registered events and suggestions.
+                                                        </p>
                                                     </div>
                                                     <div class="feature-item">
                                                         <h4>Secure Payment Methods</h4>
-                                                        <p>Ticket Juuggad's employs PCI-compliant payment gateways and has a comprehensive data protection policy to ensure that your earnings are safe. In addition, we provide flexible payment methods for a smooth payout experience.</p>
+                                                        <p>
+                                                            Ticket Juuggad's employs PCI-compliant payment gateways and has a comprehensive data protection policy to ensure that your earnings are
+                                                            safe. In addition, we provide flexible payment methods for a smooth payout experience.
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -436,15 +466,24 @@
                                                 <div class="col-12">
                                                     <div class="feature-item">
                                                         <h4>Email Campaign</h4>
-                                                        <p>You can design professional-looking emails from our built-in templates and send or schedule invitations, send reminders, and event updates to all of your contacts or pre-categorised attendees.</p>
+                                                        <p>
+                                                            You can design professional-looking emails from our built-in templates and send or schedule invitations, send reminders, and event updates
+                                                            to all of your contacts or pre-categorised attendees.
+                                                        </p>
                                                     </div>
                                                     <div class="feature-item">
                                                         <h4>Analytics and Tracking</h4>
-                                                        <p>Your events can be integrated into conversion tracking tools to monitor their social media promotion campaigns. Also, you can add your own Facebook Pixel, Google Analytics and Google Ads conversion codes.</p>
+                                                        <p>
+                                                            Your events can be integrated into conversion tracking tools to monitor their social media promotion campaigns. Also, you can add your own
+                                                            Facebook Pixel, Google Analytics and Google Ads conversion codes.
+                                                        </p>
                                                     </div>
                                                     <div class="feature-item">
                                                         <h4>Coupon</h4>
-                                                        <p>You can use coupons to boost ticket sales. Multiple coupons can be created with additional offers. Create and promote coupons and drive more ticket sales.</p>
+                                                        <p>
+                                                            You can use coupons to boost ticket sales. Multiple coupons can be created with additional offers. Create and promote coupons and drive more
+                                                            ticket sales.
+                                                        </p>
                                                     </div>
                                                     <div class="feature-item">
                                                         <h4>Early Bird Discounts</h4>
@@ -467,19 +506,31 @@
                                                 <div class="col-12">
                                                     <div class="feature-item">
                                                         <h4>Built-in Analytic Tools</h4>
-                                                        <p>Ticket Juuggad's dashboard provides essential analytical information about the event and ticket sales. Track and make decisions accordingly to optimise your events to the fullest.</p>
+                                                        <p>
+                                                            Ticket Juuggad's dashboard provides essential analytical information about the event and ticket sales. Track and make decisions accordingly
+                                                            to optimise your events to the fullest.
+                                                        </p>
                                                     </div>
                                                     <div class="feature-item">
                                                         <h4>Team Collaboration</h4>
-                                                        <p>Work together, from anywhere, with your team. Manage professionally your events together in real-time, all on one platform. Assign tasks to members from our organisation's dashboard.</p>
+                                                        <p>
+                                                            Work together, from anywhere, with your team. Manage professionally your events together in real-time, all on one platform. Assign tasks to
+                                                            members from our organisation's dashboard.
+                                                        </p>
                                                     </div>
                                                     <div class="feature-item">
                                                         <h4>Scanner App</h4>
-                                                        <p>You can use the scanning app to check in guests, and only those with valid tickets can be let in. In addition, you can cross-reference scanned tickets with your guest list through the app.</p>
+                                                        <p>
+                                                            You can use the scanning app to check in guests, and only those with valid tickets can be let in. In addition, you can cross-reference
+                                                            scanned tickets with your guest list through the app.
+                                                        </p>
                                                     </div>
                                                     <div class="feature-item">
                                                         <h4>Easy Duplicate Events</h4>
-                                                        <p>Our duplicate event feature saves time and energy and creates the same events within seconds. You can still customise the new event as you want. You will receive separate analytical reports for each event.</p>
+                                                        <p>
+                                                            Our duplicate event feature saves time and energy and creates the same events within seconds. You can still customise the new event as you
+                                                            want. You will receive separate analytical reports for each event.
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>

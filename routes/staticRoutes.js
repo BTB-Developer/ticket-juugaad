@@ -12,6 +12,6 @@ staticRouter.get("/eventsOnIndexPage", eventOnIndexPage);
 
 // Done
 // This route is called by explore_events.html
-staticRouter.get("/listAllEvents", isAuthenticated, listAllEvents);
+staticRouter.get("/listAllEvents", listAllEvents);
 
 module.exports = staticRouter;

@@ -40,8 +40,12 @@ userRouter.get("/checkLogin", async (req, res) => {
         return res.status(200).json();
     }
     // If the person is authenticated but his/her role is of admin we will return
-    if (req.isAuthenticated() && req.user.role === "admin") {
-        return res.status(409).json();
+    if (req.isAuthenticated()) {
+        if (req.user.role === "admin") {
+            return res.status(200).json();
+        } else {
+            return res.status(409).json();
+        }
     }
     // If the user is not logged in we will return the next line of code
     return res.status(400).json();
